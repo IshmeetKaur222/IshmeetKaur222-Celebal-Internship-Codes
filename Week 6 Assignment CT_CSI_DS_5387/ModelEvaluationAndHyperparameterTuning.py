@@ -14,7 +14,6 @@ from sklearn.naive_bayes import GaussianNB
 df = pd.read_csv("C:\Users\Ishmeet\OneDrive\Documents\GitHub\IshmeetKaur222-Celebal-Internship-Codes\winequality-red.csv")
 
 
-
 df['quality'] = df['quality'].apply(lambda x: 1 if x >= 7 else 0)
 
 # Features and labels
