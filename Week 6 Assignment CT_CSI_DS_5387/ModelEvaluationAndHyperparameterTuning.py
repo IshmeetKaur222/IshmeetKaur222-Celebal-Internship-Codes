@@ -10,12 +10,11 @@ from sklearn.neighbors import KNeighborsClassifier
 from sklearn.tree import DecisionTreeClassifier
 from sklearn.naive_bayes import GaussianNB
 
-# ✅ Use raw string or forward slashes here
+
 df = pd.read_csv("C:\Users\Ishmeet\OneDrive\Documents\GitHub\IshmeetKaur222-Celebal-Internship-Codes\winequality-red.csv")
 
 
 
-# Binary classification: Good wine (1) if quality >= 7
 df['quality'] = df['quality'].apply(lambda x: 1 if x >= 7 else 0)
 
 # Features and labels
