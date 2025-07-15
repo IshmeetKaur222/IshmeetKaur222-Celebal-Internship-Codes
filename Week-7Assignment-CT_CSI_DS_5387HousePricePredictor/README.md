@@ -6,16 +6,22 @@ This is a simple web application built using **Streamlit** that predicts house p
 
 ## 📌 Features
 
-- Predicts house prices based on user input
-- Visualizes the size vs. price relationship using interactive Plotly charts
-- Easy-to-use Streamlit interface
+- 🔢 Predicts house prices based on user input (area in sqft)
+- 📊 Visualizes the Size vs. Price relationship with interactive Plotly charts
+- 💻 Easy-to-use Streamlit interface
 
 ---
 
-## 🚀 How to Run the App
+## 🌐 Live App
 
-### 1. Clone the Repository (or download files)
+👉 [Click here to view the deployed app](https://ishmeetkaur222-celebal-internship-codes-z6vfa2zhbdyrhowaetemdg.streamlit.app/)
+
+---
+
+## 🚀 How to Run the App Locally
+
+### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/house-price-predictor.git
-cd house-price-predictor
+git clone https://github.com/ishmeetkaur222/celebal-internship-codes.git
+cd celebal-internship-codes/Week-7Assignment-CT_CSI_DS_5387HousePricePredictor
